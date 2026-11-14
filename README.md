@@ -28,7 +28,7 @@ HTML + CSS + JavaScript, без сборщика. Шрифты и Motion леж�
 
 - `index.html` — разметка, метатеги, JSON-LD AutoRepair;
 - `css/style.css` — дизайн-система, адаптив, состояния;
-- `js/main.js` — меню, лайтбокс, фокус-ловушки, reveal-анимации;
+- `js/main.js` — меню, лайтбокс, фокус-ловушки, анимация первого экрана;
 - `js/motion.js` — Motion (vanilla, локальная копия);
 - `fonts/` — Tektur и Inter с кириллицей (Google Fonts, OFL);
 - `img/` — фотографии из альбома, favicon, OG-картинка, статическая карта.

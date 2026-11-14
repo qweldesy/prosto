@@ -222,11 +222,9 @@
   }
 
   /* ---------------------------------------------------------
-     Reveal choreography — only if Motion is available
+     Hero entrance — content is visible without JS
      --------------------------------------------------------- */
   if (MotionAPI && !prefersReduced()) {
-    doc.classList.add("motion-ready");
-
     var heroItems = document.querySelectorAll(".hero [data-hero]");
     if (heroItems.length) {
       MotionAPI.animate(heroItems, { opacity: [0, 1], y: [26, 0] }, {
@@ -235,12 +233,5 @@
         ease: [0.16, 1, 0.3, 1]
       });
     }
-
-    MotionAPI.inView("[data-reveal]", function (info) {
-      MotionAPI.animate(info.target, { opacity: [0, 1], y: [30, 0] }, {
-        duration: 0.8,
-        ease: [0.16, 1, 0.3, 1]
-      });
-    }, { margin: "0px 0px -8% 0px" });
   }
 })();
