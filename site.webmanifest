@@ -1,0 +1,15 @@
+{
+  "name": "ProСТО — автосервис в Тольятти",
+  "short_name": "ProСТО",
+  "description": "Круглосуточный автосервис на Московском проспекте, 6Д/1 в Тольятти.",
+  "lang": "ru",
+  "start_url": "/prosto/",
+  "scope": "/prosto/",
+  "display": "standalone",
+  "background_color": "#F2F0EA",
+  "theme_color": "#172A3A",
+  "icons": [
+    { "src": "img/favicon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "img/favicon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
