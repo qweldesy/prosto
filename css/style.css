@@ -388,7 +388,7 @@ p { margin: 0; }
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(320px, .78fr);
   gap: clamp(32px, 5vw, 80px);
-  align-items: center;
+  align-items: start;
 }
 .hero__copy { min-width: 0; padding-bottom: 6px; }
 
